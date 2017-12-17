@@ -24,7 +24,7 @@ CREATE TABLE example_jsonb.books
 (
   id          uuid,
   title       text NOT NULL,
-  genre       example.genre NOT NULL,
+  genre       example_jsonb.genre NOT NULL,
   publisher   text NOT NULL,
   star        bigint NOT NULL,
   author      jsonb  NOT NULL DEFAULT '{}',

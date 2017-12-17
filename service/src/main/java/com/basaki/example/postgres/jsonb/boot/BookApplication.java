@@ -22,7 +22,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
         "com.basaki.example.postgres.jsonb.data.entity",
         "com.basaki.example.postgres.jsonb.data.repository",
         "com.basaki.example.postgres.jsonb.error",
-        "com.basaki.example.postgres.spring.jsonb.model",
+        "com.basaki.example.postgres.jsonb.model",
         "com.basaki.example.postgres.jsonb.service"})
 public class BookApplication {
     public static void main(String[] args) {
